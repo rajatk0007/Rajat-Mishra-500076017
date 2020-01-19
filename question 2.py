@@ -5,7 +5,14 @@ Created on Sat Jan 18 23:04:28 2020
 @author: Dell
 """
 
-"""Amonng the propositions supplied we only select those propositions which correspond to our conclusion"""
+"""Amonng the propositions supplied we only select those propositions which correspond to our conclusion
+A=I am a human being.
+B=I am good.
+C=Good graders study well.
+D=Humans love graders.
+E=Every human does not study well.
+"""
+
 from sympy import*
 from sympy.abc import P,Q,R,S,T,U,V,W
 P='Every Human'
